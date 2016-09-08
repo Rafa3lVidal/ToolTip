@@ -1,0 +1,13 @@
+﻿<Window x:Class="ToolTip.Janela2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ToolTip"
+        mc:Ignorable="d"
+        Title="Janela2" Height="300" Width="300">
+    <Grid>
+        <Label x:Name="label" Content="Eu sou a janela 2 gostosona!" HorizontalAlignment="Left" Margin="67,32,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>

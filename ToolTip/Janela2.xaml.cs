@@ -10,26 +10,18 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace ToolTip
 {
     /// <summary>
-    /// Interação lógica para MainWindow.xam
+    /// Lógica interna para Janela2.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Janela2 : Window
     {
-        public MainWindow()
+        public Janela2()
         {
             InitializeComponent();
-        }
-
-        private void button_Click(object sender, RoutedEventArgs e)
-        {
-            //BtnTooltip.ToolTip = DateTime.Now.ToString();
-            Janela2 dois = new Janela2();
-            dois.ShowDialog();
         }
     }
 }
