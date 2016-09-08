@@ -5,9 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ToolTip"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow" Height="300" Width="500
+        ">
     <Grid>
-        <Button x:Name="BtnTooltip" Content="Eu tenho uma dica!" HorizontalAlignment="Left" Margin="130,99,0,0" VerticalAlignment="Top" Width="258" ToolTip="IFC Videira" Height="69" Click="button_Click"/>
+        <Grid.Background>
+            <ImageBrush ImageSource="Assets/Purple-Technical-Data-info-Backgrounds-800x600.jpg"/>
+        </Grid.Background>
+        <Button x:Name="BtnTooltip" Content="Acessar Painel" HorizontalAlignment="Center" Margin="108,92,108,117" VerticalAlignment="Center" Width="276" ToolTip="Entrar no sistema!" Height="60" Click="button_Click" FontSize="36"/>
 
     </Grid>
 </Window>

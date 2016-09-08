@@ -55,6 +55,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="Assets\Janela3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Janela2.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -66,6 +70,9 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Assets\Janela3.xaml.cs">
+      <DependentUpon>Janela3.xaml</DependentUpon>
     </Compile>
     <Compile Include="Janela2.xaml.cs">
       <DependentUpon>Janela2.xaml</DependentUpon>
@@ -101,6 +108,17 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Purple-Technical-Data-info-Backgrounds-800x600.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\journey-login-background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\leo.png" />
+    <Resource Include="Assets\marlene.png" />
+    <Resource Include="Assets\silmar.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

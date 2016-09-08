@@ -5,9 +5,17 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ToolTip"
         mc:Ignorable="d"
-        Title="Janela2" Height="300" Width="300">
-    <Grid>
-        <Label x:Name="label" Content="Eu sou a janela 2 gostosona!" HorizontalAlignment="Left" Margin="67,32,0,0" VerticalAlignment="Top"/>
+        Title="Janela2" Height="226.5" Width="300">
+    <Grid Margin="0,0,0,-2">
+        <Grid.Background>
+            <ImageBrush ImageSource="Assets/journey-login-background.png"/>
+        </Grid.Background>
+        <Label x:Name="LblUsuario" Content="Usuário:" HorizontalAlignment="Left" Margin="48,44,0,0" VerticalAlignment="Top" Background="Transparent" Foreground="White"/>
+        <Label x:Name="LblSenha" Content="Senha:&#xD;&#xA;" HorizontalAlignment="Left" Margin="56,80,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <TextBox x:Name="TxtBoxUsuario" HorizontalAlignment="Left" Height="20
+                 " Margin="121,47,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" ToolTip="Digite seu usuário"/>
+        <Button x:Name="BtnLogin" Content="Login" HorizontalAlignment="Left" Margin="48,117,0,0" VerticalAlignment="Top" Width="193" Height="30" Click="BtnLogin_Click"/>
+        <PasswordBox x:Name="PassBoxSenha" HorizontalAlignment="Left" Margin="121,80,0,0" VerticalAlignment="Top" Width="120" Height="20"/>
 
     </Grid>
 </Window>
