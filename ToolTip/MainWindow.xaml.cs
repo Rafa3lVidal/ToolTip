@@ -24,5 +24,10 @@ namespace ToolTip
         {
             InitializeComponent();
         }
+
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+            BtnTooltip.ToolTip = DateTime.Now.ToString();
+        }
     }
 }
